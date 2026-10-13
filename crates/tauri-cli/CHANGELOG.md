@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.13.0]
+
+### New Features
+
+- [`d53900fd3`](https://www.github.com/tauri-apps/tauri/commit/d53900fd3868a9dc13c1b7d655dc220dac48ac15) ([#16258](https://www.github.com/tauri-apps/tauri/pull/16258) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Add `bundle > linux > deb > compression` config option to control Debian bundle compression type and level.
+
+### Enhancements
+
+- [`107f93ae0`](https://www.github.com/tauri-apps/tauri/commit/107f93ae0b8bbcd3eec4f8af848034272a67b849) ([#16259](https://www.github.com/tauri-apps/tauri/pull/16259) by [@cloudiful](https://www.github.com/tauri-apps/tauri/../../cloudiful)) Standalone Linux ARM64 GNU and musl CLI archives are now included in releases.
+
+### Bug Fixes
+
+- [`d62e5d9c0`](https://www.github.com/tauri-apps/tauri/commit/d62e5d9c0878b6fb327543cc9be50aa1696ee23c) ([#16184](https://www.github.com/tauri-apps/tauri/pull/16184) by [@ThomasBraun1979](https://www.github.com/tauri-apps/tauri/../../ThomasBraun1979)) Fix NSIS installer leaving `uninstall.exe` and the installation directory behind when uninstalling an existing installation from the installer.
+
+### Dependencies
+
+- Upgraded to `tauri-bundler@2.11.0`
+- Upgraded to `tauri-utils@2.11.0`
+- [`5a2953e55`](https://www.github.com/tauri-apps/tauri/commit/5a2953e555b4444bed68bd5324ea13ad85a6c06e) ([#16237](https://www.github.com/tauri-apps/tauri/pull/16237) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Updated NSIS to 3.13
+
 ## [2.12.2]
 
 ### Bug Fixes

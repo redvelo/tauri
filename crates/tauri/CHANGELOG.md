@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.12.4]
+
+### Bug Fixes
+
+- [`9c3fb8865`](https://www.github.com/tauri-apps/tauri/commit/9c3fb8865fcc33982dff31c821d988a9a038ff8c) ([#16197](https://www.github.com/tauri-apps/tauri/pull/16197) by [@alessandrorodi](https://www.github.com/tauri-apps/tauri/../../alessandrorodi)) Fix a panic in the IPC and asset protocol handlers when the request URI has an empty path (for example `ipc:foo`).
+
+### Dependencies
+
+- Upgraded to `tauri-build@2.7.3`
+- Upgraded to `tauri-utils@2.11.0`
+- Upgraded to `tauri-runtime@2.12.2`
+- Upgraded to `tauri-runtime-wry@2.12.2`
+- Upgraded to `tauri-macros@2.7.3`
+
 ## [2.12.3]
 
 ### Bug Fixes

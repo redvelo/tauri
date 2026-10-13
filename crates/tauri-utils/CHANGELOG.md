@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.11.0]
+
+### New Features
+
+- [`d53900fd3`](https://www.github.com/tauri-apps/tauri/commit/d53900fd3868a9dc13c1b7d655dc220dac48ac15) ([#16258](https://www.github.com/tauri-apps/tauri/pull/16258) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Add `bundle > linux > deb > compression` config option to control Debian bundle compression type and level.
+
 ## [2.10.1]
 
 ### Bug Fixes
