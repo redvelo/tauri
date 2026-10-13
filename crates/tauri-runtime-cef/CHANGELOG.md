@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.0-alpha.6]
+
+### Bug Fixes
+
+- [`d78cc6085`](https://www.github.com/tauri-apps/tauri/commit/d78cc6085b9ab8a036d4e6430d1f20e9c0cf1889) ([#16241](https://www.github.com/tauri-apps/tauri/pull/16241) by [@beanow-at-crabnebula](https://www.github.com/tauri-apps/tauri/../../beanow-at-crabnebula)) Fixed CEF child processes ignoring `Cef::cef_api_version`. Renderer, GPU and utility processes now declare the same CEF API version as the browser process, which passes it on each child's command line as `--tauri-cef-api-version=<n>`.
+- [`a5e3a697e`](https://www.github.com/tauri-apps/tauri/commit/a5e3a697e48f50273982dca658e90402cd977a9f) ([#16240](https://www.github.com/tauri-apps/tauri/pull/16240) by [@beanow-at-crabnebula](https://www.github.com/tauri-apps/tauri/../../beanow-at-crabnebula)) Report an unsupported CEF API version instead of crashing. The runtime now checks the result of `cef_api_hash`: the browser process logs the version and fails with `Error::WebviewRuntimeNotInstalled`, and a helper process panics with the same message.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@3.0.0-alpha.4`
+- Upgraded to `tauri-runtime@3.0.0-alpha.4`
+- Upgraded to `tauri-macros@3.0.0-alpha.4`
+- Upgraded to `tauri@3.0.0-alpha.5`
+
 ## [3.0.0-alpha.5]
 
 ### Bug Fixes
